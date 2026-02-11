@@ -99,6 +99,7 @@ body {
 .five p {
   font-size: 2rem;
   position: absolute;
+  top: -3.5rem;
   left: 0;
   right: 0;
 }
@@ -111,12 +112,14 @@ body {
 
 .five .idea-5 {
   font-size: 4rem;
+  top: -10rem;
 }
 
 .idea-5 span,
 .idea-6 span,
 .wish-hbd span {
   display: inline-block;
+  top: -3rem;
 }
 
 .idea-6 span {
@@ -310,7 +313,8 @@ body {
   }
 
   .wish h5 {
-    font-size: 1.2rem;
+    font-size: 1.5rem !important;
+    margin-top: 22px !important;
   }
 
   .nine p {
