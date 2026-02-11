@@ -191,7 +191,7 @@ const animationTimeline = () => {
         y: -25,
         rotationZ: -45,
       },
-      "-=2",
+      "party",
     )
     .from(".hat", 0.5, {
       x: -100,
@@ -201,7 +201,7 @@ const animationTimeline = () => {
     })
     .staggerFrom(
       ".wish-hbd span",
-      0.7,
+      0.9,
       {
         opacity: 0,
         y: -50,
@@ -211,6 +211,7 @@ const animationTimeline = () => {
         ease: Elastic.easeOut.config(1, 0.5),
       },
       0.1,
+      "party",
     )
     .staggerFromTo(
       ".wish-hbd span",
